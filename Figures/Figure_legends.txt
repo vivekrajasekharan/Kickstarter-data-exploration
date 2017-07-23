@@ -1,0 +1,12 @@
+Figure Legends:
+Legend: Successful Project (green) and Failed project (blue)
+Fig 1:  Count plot showing number of projects (successful and failed) from each country. Inference: USA accounts for 85% of total projects
+Fig 2: Count plot showing successful and failed projects. Inference: Only about 30% of the projects succeed.
+Fig 3:Successful and Failed projects vs number of backers (left) and goal (right). Inference: Successful projects accumulate more backers and have lower mean goals.
+Fig 4: Successful and Failed projects vs disable_communication. Right plot is zoomed in. Inference: Projects where authors disable communication are few ~ 300 and always fail.
+Fig 5: Probability densities of the time duration between launch and deadline of successful and failed projects. Inference: 30 days is a good deadline, 40% successful projects and only 20% of failed projects pick this duration.
+Fig 6: Keywords ordered by count (normalized to be used as a metric) for successful and failed projects. Top keywords are common. Some keywords have always failed e.g. app (calculated in text to be 800 occurences).
+Fig 7:Violin plots (left) and bar plots (right) showing sentiment polarity of the descriptions of projects. Inference: Projects generally have a positive sentiment, however the mean of the population is less positive for successful projects.
+Fig 8: Same as Fig 7, but for name instead of description.
+Fig 9: Heatmap
+Fig 10: Feature importance of metrics used. Inference: Number of backers is most important but is usually unknown at the start of the project. Setting a valid goal is the most important.
